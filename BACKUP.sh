@@ -6,7 +6,7 @@ function echo_status {
 
 # Backup Wonderwall wallpapers
 echo_status "Backing up Wonderwall wallpapers..."
-cp ~/snap/wonderwall/39/.local/share/ktechpit/WonderWall/* ~/Linux-Config/Backup/Wonderwall
+cp ~/snap/wonderwall/39/.local/share/ktechpit/WonderWall/download/* ~/Linux-Config/Backup/Wonderwall/ 
 
 # Backup Themes
 echo_status "Backing up themes..."
