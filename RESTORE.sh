@@ -11,12 +11,12 @@ cp ~/Linux-Config/Backup/Wonderwall/* ~/snap/wonderwall/39/.local/share/ktechpit
 # Backup Themes
 echo_status "Backing up themes..."
 mkdir ~/.themes
-cp ~/Linux-Config/Backup/Themes/* ~/.themes/  -r
+cp ~/Linux-Config/Backup/.themes/* ~/.themes/  -r
 
 # Backup Icons
 echo_status "Backing up icons..."
 mkdir ~/.icons
-cp ~/Linux-Config/Backup/Icons/* ~/.icons/ -r
+cp ~/Linux-Config/Backup/.icons/* ~/.icons/ -r
 
 echo_status "Restoring completed successfully!"
 
