@@ -10,11 +10,11 @@ cp ~/snap/wonderwall/39/.local/share/ktechpit/WonderWall/download/* ~/Linux-Conf
 
 # Backup Themes
 echo_status "Backing up themes..."
-cp ~/.themes/* ~/Linux-Config/Backup/Themes/ -r
+cp ~/.themes/* ~/Linux-Config/Backup/.themes/ -r
 
 # Backup Icons
 echo_status "Backing up icons..."
-cp ~/.icons/* ~/Linux-Config/Backup/Icons/ -r
+cp ~/.icons/* ~/Linux-Config/Backup/.icons/ -r
 
 # Saving ALL the backups
 echo_status "Committing and pushing backups to git repository..."
